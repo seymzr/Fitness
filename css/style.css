@@ -19,17 +19,11 @@ nav {
     width: 100%;
 }
 
-#title {
-    bottom: 20vh;
-}
+#title { bottom: 20vh;}
 
-nav {
-    padding: 40px 50px;
-}
+nav { padding: 40px 50px;}
 
-menu {
-    padding: 20px 0;
-}
+menu {padding: 20px 0;}
 
 #menu li a {
     font: .8em/1.5 'Lato', sans-serif;
@@ -50,58 +44,31 @@ h5 {
     text-transform: uppercase;
 }
 
-#fitness {
-    background: url('../img/fitness.jpg') center/cover no-repeat
-}
+#fitness {background: url('../img/fitness.jpg') center/cover no-repeat}
 
-#body {
-    background: url('../img/body.jpg') center/cover no-repeat
-}
+#body { background: url('../img/body.jpg') center/cover no-repeat}
 
-#lifestyle {
-    background: url('../img/lifestyle.jpg') center/cover no-repeat;
-}
+#lifestyle {background: url('../img/lifestyle.jpg') center/cover no-repeat;}
 
-#summer {
-    background: url('../img/summer.jpg') center/cover no-repeat;
-}
+#summer {background: url('../img/summer.jpg') center/cover no-repeat;}
 
-#grape {
-    background: url('../img/grape.jpg') center/cover no-repeat;
-}
+#grape {background: url('../img/grape.jpg') center/cover no-repeat;}
 
-#avocado {
-    background: url('../img/avocado.jpg') center/cover;
-}
+#avocado {background: url('../img/avocado.jpg') center/cover;}
 
-.container {
-    max-width: 1180px;
-    margin: auto;
-}
+.container { max-width: 1180px; margin: auto;}
 
-.yasilbg {
-    background: var(--yasil)
-}
+.yasilbg {background: var(--yasil)}
 
-.qirmizibg {
-    background: var(--qirmizi)
-}
+.qirmizibg {background: var(--qirmizi)}
 
-.agbg {
-    background: #fff;
-}
+.agbg {background: #fff;}
 
-.yasiltxt {
-    color: var(--yasil)
-}
+.yasiltxt {color: var(--yasil)}
 
-.qirmizitxt {
-    color: var(--qirmizi)
-}
+.qirmizitxt {color: var(--qirmizi)}
 
-.agtxt {
-    color: #fff;
-}
+.agtxt {color: #fff;}
 
 .qirmiziheading {
     font: bold .9em 'Open Sans', sans-serif;
@@ -119,9 +86,7 @@ h5 {
     text-transform: uppercase;
 }
 
-.vh50 {
-    height: 50vh;
-}
+.vh50 {height: 50vh;}
 
 .fa-suitcase,
 .fa-tachometer-alt,
@@ -145,13 +110,9 @@ h5 {
     font-family: "Proxima Nova";
 }
 
-#artcl1 article a {
-    font-family: 'Open Sans', sans-serif;
-}
+#artcl1 article a {font-family: 'Open Sans', sans-serif;}
 
-#artcl2 {
-    text-align: center;
-}
+#artcl2 {text-align: center;}
 
 #artcl2 i {
     color: #e3e9e9;
@@ -167,13 +128,9 @@ h5 {
     padding: 0 0 15px 0;
 }
 
-#artcl2 a {
-    text-decoration: underline;
-}
+#artcl2 a {text-decoration: underline;}
 
-#artcl3 {
-    text-align: center;
-}
+#artcl3 {text-align: center;}
 
 #artcl3 i {
     color: #e3e9e9;
@@ -189,18 +146,14 @@ h5 {
     padding: 10px 0 15px 0;
 }
 
-#artcl3 h3 {
-    padding: 50px 0 10px 0;
-}
+#artcl3 h3 {padding: 50px 0 10px 0;}
 
 #artcl3 h2 {
     letter-spacing: 1px;
     padding: 0 0 15px 0;
 }
 
-h2 {
-    padding: 15px;
-}
+h2 { padding: 15px;}
 
 h3 {
     font-weight: 400;
@@ -208,9 +161,7 @@ h3 {
     padding: 0 0 10px 0;
 }
 
-h6 {
-    padding-top: 50px;
-}
+h6 {padding-top: 50px;}
 
 footer {
     background-color: #0c1119;
@@ -249,21 +200,13 @@ h4 {
     padding: 45px 10px;
 }
 
-#fb {
-    color: #3b5998
-}
+#fb {color: #3b5998}
 
-#tt {
-    color: #00acee
-}
+#tt {color: #00acee}
 
-#yt {
-    color: #ff0000
-}
+#yt {color: #ff0000}
 
-#in {
-    color: #0e76a8
-}
+#in {color: #0e76a8}
 
 .form {
     display: flex;
@@ -287,42 +230,23 @@ h4 {
 }
 
 @media only screen and (min-width:900px) {
-    header {
-        text-align: inherit;
-    }
+    header {text-align: inherit;}
     #title {
         width: inherit;
         padding: 0 0 0 115px;
     }
-    #menu {
-        float: right
-    }
+    #menu {float: right }
     #menu li {
         display: inline-block;
         margin: 0 30px;
     }
-    h1 {
-        font-size: 2.5em
-    }
-    h5 {
-        text-align: right;
-        padding: 0 20px
-    }
-    .w25 {
-        width: 25%
-    }
-    .w33 {
-        width: 34%
-    }
-    .w66 {
-        width: 66%
-    }
-    .floatleft {
-        float: left
-    }
-    .floatright {
-        float: right
-    }
+    h1 {font-size: 2.5em}
+    h5 {text-align: right; padding: 0 20px}
+    .w25 {width: 25%}
+    .w33 {width: 34%}
+    .w66 {width: 66%}
+    .floatleft {float: left}
+    .floatright {float: right}
     .row::after {
         content: '';
         display: table;
@@ -332,9 +256,7 @@ h4 {
         background: url('../img/footerbg.jpg') center/cover no-repeat;
         padding: 240px 0 450px 0;
     }
-    .fp1 h1 {
-        font-size: 2.8em;
-    }
+    .fp1 h1 {font-size: 2.8em;}
     #artcl1 {
         display: flex;
         flex-direction: row;
@@ -347,12 +269,8 @@ h4 {
         padding: 10px 10px 10px 0;
         font-family: "Proxima Nova";
     }
-    #artcl3 {
-        text-align: left;
-    }
-    #artcl3 div {
-        padding-left: 35px;
-    }
+    #artcl3 {text-align: left;}
+    #artcl3 div {padding-left: 35px;}
     .summer h3 {
         font-size: 2.5em;
         color: #fff;
@@ -368,23 +286,15 @@ h4 {
         height: 60vh;
         text-align: left;
     }
-    .col1 div {
-        max-width: 445px;
-    }
+    .col1 div { max-width: 445px;}
     .col1 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #name {
-        width: 200px;
-    }
-    #email {
-        width: 340px;
-    }
-    #submit {
-        width: 180px;
-    }
+    #name {width: 200px;}
+    #email {width: 340px;}
+    #submit {width: 180px;}
     footer h4 {
         padding-top: 65px;
         color: #efeff0
